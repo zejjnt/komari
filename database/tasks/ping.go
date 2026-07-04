@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/komari-monitor/komari/database/dbcore"
-	"github.com/komari-monitor/komari/database/metricstore"
-	"github.com/komari-monitor/komari/database/models"
-	"github.com/komari-monitor/komari/utils"
+	"github.com/zejjnt/komari/database/dbcore"
+	"github.com/zejjnt/komari/database/metricstore"
+	"github.com/zejjnt/komari/database/models"
+	"github.com/zejjnt/komari/utils"
 	"gorm.io/gorm"
 )
 

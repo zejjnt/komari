@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/komari-monitor/komari/database/models"
-	"github.com/komari-monitor/komari/protocol/v1"
+	"github.com/zejjnt/komari/database/models"
+	"github.com/zejjnt/komari/protocol/v1"
 	"github.com/patrickmn/go-cache"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

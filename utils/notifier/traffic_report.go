@@ -10,14 +10,14 @@ import (
 
 	"context"
 
-	"github.com/komari-monitor/komari/database/dbcore"
-	"github.com/komari-monitor/komari/database/metricstore"
-	"github.com/komari-monitor/komari/database/models"
-	messageevent "github.com/komari-monitor/komari/database/models/messageEvent"
-	"github.com/komari-monitor/komari/pkg/config"
-	"github.com/komari-monitor/komari/pkg/corn"
-	"github.com/komari-monitor/komari/utils"
-	"github.com/komari-monitor/komari/utils/messageSender"
+	"github.com/zejjnt/komari/database/dbcore"
+	"github.com/zejjnt/komari/database/metricstore"
+	"github.com/zejjnt/komari/database/models"
+	messageevent "github.com/zejjnt/komari/database/models/messageEvent"
+	"github.com/zejjnt/komari/pkg/config"
+	"github.com/zejjnt/komari/pkg/corn"
+	"github.com/zejjnt/komari/utils"
+	"github.com/zejjnt/komari/utils/messageSender"
 	"gorm.io/gorm"
 )
 

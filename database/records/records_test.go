@@ -12,7 +12,7 @@ import (
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 
-	"github.com/komari-monitor/komari/database/models"
+	"github.com/zejjnt/komari/database/models"
 )
 
 var uuid = "7901508c-304f-49aa-b84f-957c33ae6f8a"

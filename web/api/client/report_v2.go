@@ -12,12 +12,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
-	"github.com/komari-monitor/komari/database/clients"
-	v2 "github.com/komari-monitor/komari/protocol/v2"
-	"github.com/komari-monitor/komari/utils/notifier"
-	agent_runtime "github.com/komari-monitor/komari/web/agent"
-	"github.com/komari-monitor/komari/web/api"
-	"github.com/komari-monitor/komari/web/connection"
+	"github.com/zejjnt/komari/database/clients"
+	v2 "github.com/zejjnt/komari/protocol/v2"
+	"github.com/zejjnt/komari/utils/notifier"
+	agent_runtime "github.com/zejjnt/komari/web/agent"
+	"github.com/zejjnt/komari/web/api"
+	"github.com/zejjnt/komari/web/connection"
 )
 
 func readMaybeCompressedBody(r *http.Request) ([]byte, error) {

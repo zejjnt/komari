@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/komari-monitor/komari/database/models"
-	appconfig "github.com/komari-monitor/komari/pkg/config"
+	"github.com/zejjnt/komari/database/models"
+	appconfig "github.com/zejjnt/komari/pkg/config"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 )

@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/komari-monitor/komari/database/accounts"
-	"github.com/komari-monitor/komari/pkg/config"
-	"github.com/komari-monitor/komari/pkg/rpc"
-	"github.com/komari-monitor/komari/web/api"
-	"github.com/komari-monitor/komari/web/connection"
+	"github.com/zejjnt/komari/database/accounts"
+	"github.com/zejjnt/komari/pkg/config"
+	"github.com/zejjnt/komari/pkg/rpc"
+	"github.com/zejjnt/komari/web/api"
+	"github.com/zejjnt/komari/web/connection"
 )
 
 // OnRpcRequest 是 /api/rpc2 的统一入口：GET 升级为 WebSocket，POST 处理单条/批量 JSON-RPC。

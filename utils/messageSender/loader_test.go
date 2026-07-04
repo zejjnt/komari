@@ -3,7 +3,7 @@ package messageSender
 import (
 	"testing"
 
-	"github.com/komari-monitor/komari/utils/messageSender/factory"
+	"github.com/zejjnt/komari/utils/messageSender/factory"
 )
 
 func Test(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/komari-monitor/komari/database/dbcore"
-	"github.com/komari-monitor/komari/database/models"
-	"github.com/komari-monitor/komari/pkg/config"
+	"github.com/zejjnt/komari/database/dbcore"
+	"github.com/zejjnt/komari/database/models"
+	"github.com/zejjnt/komari/pkg/config"
 )
 
 func GetPublicInfo() (map[string]interface{}, error) {

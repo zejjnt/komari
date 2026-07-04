@@ -3,8 +3,8 @@ package jsonrpc
 import (
 	"context"
 
-	"github.com/komari-monitor/komari/pkg/config"
-	"github.com/komari-monitor/komari/pkg/rpc"
+	"github.com/zejjnt/komari/pkg/config"
+	"github.com/zejjnt/komari/pkg/rpc"
 )
 
 // privateSiteLoginWhitelist 私有站点模式下仍允许匿名访问的方法白名单。

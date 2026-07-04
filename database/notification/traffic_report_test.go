@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/komari-monitor/komari/database/models"
+	"github.com/zejjnt/komari/database/models"
 )
 
 func TestValidateTrafficReportNotificationsRejectsEnabledWithoutCadence(t *testing.T) {

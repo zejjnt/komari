@@ -3,10 +3,10 @@ package jsonrpc
 import (
 	"context"
 
-	"github.com/komari-monitor/komari/database/dbcore"
-	"github.com/komari-monitor/komari/database/models"
-	"github.com/komari-monitor/komari/database/notification"
-	"github.com/komari-monitor/komari/pkg/rpc"
+	"github.com/zejjnt/komari/database/dbcore"
+	"github.com/zejjnt/komari/database/models"
+	"github.com/zejjnt/komari/database/notification"
+	"github.com/zejjnt/komari/pkg/rpc"
 	"gorm.io/gorm/clause"
 )
 

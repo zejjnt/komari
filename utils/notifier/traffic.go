@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/komari-monitor/komari/database/clients"
-	"github.com/komari-monitor/komari/database/models"
-	"github.com/komari-monitor/komari/pkg/config"
-	"github.com/komari-monitor/komari/utils/messageSender"
-	agent_runtime "github.com/komari-monitor/komari/web/agent"
+	"github.com/zejjnt/komari/database/clients"
+	"github.com/zejjnt/komari/database/models"
+	"github.com/zejjnt/komari/pkg/config"
+	"github.com/zejjnt/komari/utils/messageSender"
+	agent_runtime "github.com/zejjnt/komari/web/agent"
 	cache "github.com/patrickmn/go-cache"
 )
 

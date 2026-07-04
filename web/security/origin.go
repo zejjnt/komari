@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/komari-monitor/komari/pkg/config"
+	"github.com/zejjnt/komari/pkg/config"
 )
 
 func SplitAllowlist(raw string) []string {

@@ -1,8 +1,8 @@
 # Komari
 
-![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fkomari-monitor%2Fkomari&label=&icon=github&color=%23a370f7&message=&style=flat&tz=UTC)
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fzejjnt%2Fkomari&label=&icon=github&color=%23a370f7&message=&style=flat&tz=UTC)
 
-![komari](https://socialify.git.ci/komari-monitor/komari/image?description=1&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fkomari-monitor%2Fkomari-web%2Fd54ce1288df41ead08aa19f8700186e68028a889%2Fpublic%2Ffavicon.png&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto)
+![komari](https://socialify.git.ci/zejjnt/komari/image?description=1&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fzejjnt%2Fkomari-web%2Fd54ce1288df41ead08aa19f8700186e68028a889%2Fpublic%2Ffavicon.png&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto)
 
 Komariは、サーバーのパフォーマンスを監視するためのシンプルで効率的なソリューションを提供することを目的とした、軽量の自己ホスト型サーバー監視ツールです。Webインターフェースを介してサーバーのステータスを表示し、軽量エージェントを介してデータを収集します。
 
@@ -36,7 +36,7 @@ Komariは、サーバーのパフォーマンスを監視するためのシン�
 systemdを使用するディストリビューション（Ubuntu、Debianなど）に適しています。
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/komari-monitor/komari/main/install-komari.sh -o install-komari.sh
+curl -fsSL https://raw.githubusercontent.com/zejjnt/komari/main/install-komari.sh -o install-komari.sh
 chmod +x install-komari.sh
 sudo ./install-komari.sh
 ```
@@ -53,7 +53,7 @@ sudo ./install-komari.sh
      -p 25774:25774 \
      -v $(pwd)/data:/app/data \
      --name komari \
-     ghcr.io/komari-monitor/komari:latest
+     ghcr.io/zejjnt/komari:latest
    ```
 3. デフォルトのユーザー名とパスワードを表示します:
    ```bash
@@ -66,7 +66,7 @@ sudo ./install-komari.sh
 
 ### 3. バイナリファイル展開
 
-1. Komariの[GitHubリリース](https://github.com/komari-monitor/komari/releases)ページにアクセスして、お使いのオペレーティングシステム用の最新のバイナリをダウンロードします。
+1. Komariの[GitHubリリース](https://github.com/zejjnt/komari/releases)ページにアクセスして、お使いのオペレーティングシステム用の最新のバイナリをダウンロードします。
 2. Komariを実行します:
    ```bash
    ./komari server -l 0.0.0.0:25774
@@ -85,14 +85,14 @@ sudo ./install-komari.sh
 
 1. フロントエンドの静的ファイルをビルドします:
    ```bash
-   git clone https://github.com/komari-monitor/komari-web
+   git clone https://github.com/zejjnt/komari-web
    cd komari-web
    npm install
    npm run build
    ```
 2. バックエンドをビルドします:
    ```bash
-   git clone https://github.com/komari-monitor/komari
+   git clone https://github.com/zejjnt/komari
    cd komari
    ```
    ステップ1で生成された静的ファイルを `komari` プロジェクトのルートにある `/web/public/defaultTheme/dist` フォルダにコピーし、`komari-theme.json` と `preview.png`/`perview.png` を `/web/public/defaultTheme` にコピーします。
@@ -131,7 +131,7 @@ IssueやPull Requestを歓迎します！
 
 ### 🚀 SharonNetworks スポンサー
 
-[![Sharon Networks](https://raw.githubusercontent.com/komari-monitor/public/refs/heads/main/images/sharon-networks.webp)](https://sharon.io)
+[![Sharon Networks](https://raw.githubusercontent.com/zejjnt/public/refs/heads/main/images/sharon-networks.webp)](https://sharon.io)
 
 SharonNetworks は、あなたのビジネスの離陸を力強くサポートします！
 
@@ -145,4 +145,4 @@ PR を送ってくれた方、テーマを作成してくれた全ての開発�
 
 ## Star履歴
 
-[![Star History Chart](https://api.star-history.com/svg?repos=komari-monitor/komari&type=Date)](https://www.star-history.com/#komari-monitor/komari&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=zejjnt/komari&type=Date)](https://www.star-history.com/#zejjnt/komari&Date)

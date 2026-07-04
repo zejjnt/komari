@@ -7,13 +7,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/komari-monitor/komari/database/clients"
-	"github.com/komari-monitor/komari/database/dbcore"
-	"github.com/komari-monitor/komari/database/models"
-	messageevent "github.com/komari-monitor/komari/database/models/messageEvent"
-	"github.com/komari-monitor/komari/database/records"
-	"github.com/komari-monitor/komari/pkg/corn"
-	"github.com/komari-monitor/komari/utils/messageSender"
+	"github.com/zejjnt/komari/database/clients"
+	"github.com/zejjnt/komari/database/dbcore"
+	"github.com/zejjnt/komari/database/models"
+	messageevent "github.com/zejjnt/komari/database/models/messageEvent"
+	"github.com/zejjnt/komari/database/records"
+	"github.com/zejjnt/komari/pkg/corn"
+	"github.com/zejjnt/komari/utils/messageSender"
 )
 
 // LoadNotificationService 管理定时器和任务

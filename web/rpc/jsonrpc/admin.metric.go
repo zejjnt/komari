@@ -3,8 +3,8 @@ package jsonrpc
 import (
 	"context"
 
-	"github.com/komari-monitor/komari/database/metricstore"
-	"github.com/komari-monitor/komari/pkg/rpc"
+	"github.com/zejjnt/komari/database/metricstore"
+	"github.com/zejjnt/komari/pkg/rpc"
 )
 
 // admin.metric.go

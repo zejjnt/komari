@@ -2,8 +2,8 @@ package admin
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/komari-monitor/komari/database/accounts"
-	"github.com/komari-monitor/komari/web/api"
+	"github.com/zejjnt/komari/database/accounts"
+	"github.com/zejjnt/komari/web/api"
 )
 
 // oauth.go

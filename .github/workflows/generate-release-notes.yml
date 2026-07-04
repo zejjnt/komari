@@ -28,7 +28,7 @@ jobs:
         with:
           script: |
             const { owner, repo } = context.repo;
-            const webRepo = { owner: "komari-monitor", repo: "komari-web" };
+            const webRepo = { owner: "zejjnt", repo: "komari-web" };
 
             const clean = (value) => (typeof value === "string" ? value.trim() : "");
             const releaseTimestamp = (release) => Date.parse(release.published_at || release.created_at || "");

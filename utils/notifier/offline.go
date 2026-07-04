@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/komari-monitor/komari/database/clients"
-	"github.com/komari-monitor/komari/database/dbcore"
-	"github.com/komari-monitor/komari/database/models"
-	messageevent "github.com/komari-monitor/komari/database/models/messageEvent"
-	"github.com/komari-monitor/komari/pkg/config"
-	"github.com/komari-monitor/komari/utils/messageSender"
-	"github.com/komari-monitor/komari/utils/renewal"
+	"github.com/zejjnt/komari/database/clients"
+	"github.com/zejjnt/komari/database/dbcore"
+	"github.com/zejjnt/komari/database/models"
+	messageevent "github.com/zejjnt/komari/database/models/messageEvent"
+	"github.com/zejjnt/komari/pkg/config"
+	"github.com/zejjnt/komari/utils/messageSender"
+	"github.com/zejjnt/komari/utils/renewal"
 )
 
 // notificationState 保存单个客户端的通知状态。

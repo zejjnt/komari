@@ -3,8 +3,8 @@ package cmd
 import (
 	"os"
 
-	"github.com/komari-monitor/komari/database/dbcore"
-	"github.com/komari-monitor/komari/pkg/config"
+	"github.com/zejjnt/komari/database/dbcore"
+	"github.com/zejjnt/komari/pkg/config"
 	"github.com/spf13/cobra"
 )
 

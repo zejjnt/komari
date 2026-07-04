@@ -6,15 +6,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/komari-monitor/komari/database/accounts"
-	"github.com/komari-monitor/komari/database/auditlog"
-	"github.com/komari-monitor/komari/database/dbcore"
-	"github.com/komari-monitor/komari/database/metricstore"
-	"github.com/komari-monitor/komari/database/models"
-	"github.com/komari-monitor/komari/database/records"
-	"github.com/komari-monitor/komari/database/tasks"
-	"github.com/komari-monitor/komari/pkg/config"
-	"github.com/komari-monitor/komari/pkg/rpc"
+	"github.com/zejjnt/komari/database/accounts"
+	"github.com/zejjnt/komari/database/auditlog"
+	"github.com/zejjnt/komari/database/dbcore"
+	"github.com/zejjnt/komari/database/metricstore"
+	"github.com/zejjnt/komari/database/models"
+	"github.com/zejjnt/komari/database/records"
+	"github.com/zejjnt/komari/database/tasks"
+	"github.com/zejjnt/komari/pkg/config"
+	"github.com/zejjnt/komari/pkg/rpc"
 )
 
 // admin.misc.go

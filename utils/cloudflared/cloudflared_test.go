@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/komari-monitor/komari/utils/cloudflared"
+	"github.com/zejjnt/komari/utils/cloudflared"
 )
 
 func TestStatusDoesNotExposeToken(t *testing.T) {

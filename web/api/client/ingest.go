@@ -3,10 +3,10 @@ package client
 import (
 	"time"
 
-	"github.com/komari-monitor/komari/database/models"
-	"github.com/komari-monitor/komari/database/tasks"
-	v1 "github.com/komari-monitor/komari/protocol/v1"
-	agent_runtime "github.com/komari-monitor/komari/web/agent"
+	"github.com/zejjnt/komari/database/models"
+	"github.com/zejjnt/komari/database/tasks"
+	v1 "github.com/zejjnt/komari/protocol/v1"
+	agent_runtime "github.com/zejjnt/komari/web/agent"
 )
 
 // ingest.go

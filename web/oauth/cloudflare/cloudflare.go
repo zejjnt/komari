@@ -6,8 +6,8 @@ import (
 
 	"github.com/coreos/go-oidc/v3/oidc"
 	"github.com/gin-gonic/gin"
-	"github.com/komari-monitor/komari/utils"
-	"github.com/komari-monitor/komari/web/oauth/factory"
+	"github.com/zejjnt/komari/utils"
+	"github.com/zejjnt/komari/web/oauth/factory"
 )
 
 func (c *Cloudflare) GetName() string {

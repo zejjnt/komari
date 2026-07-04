@@ -8,8 +8,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
-	"github.com/komari-monitor/komari/pkg/config"
-	"github.com/komari-monitor/komari/web/security"
+	"github.com/zejjnt/komari/pkg/config"
+	"github.com/zejjnt/komari/web/security"
 )
 
 type WebSocketUpgradeOption func(*websocket.Upgrader)

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/komari-monitor/komari/protocol/v1"
+	"github.com/zejjnt/komari/protocol/v1"
 	"github.com/stretchr/testify/assert"
 )
 

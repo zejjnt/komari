@@ -15,8 +15,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/komari-monitor/komari/pkg/config"
-	"github.com/komari-monitor/komari/utils/secureconfig"
+	"github.com/zejjnt/komari/pkg/config"
+	"github.com/zejjnt/komari/utils/secureconfig"
 )
 
 type RuntimeStatus struct {

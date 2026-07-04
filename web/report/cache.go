@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/komari-monitor/komari/database/clients"
-	"github.com/komari-monitor/komari/database/dbcore"
-	"github.com/komari-monitor/komari/database/metricstore"
-	"github.com/komari-monitor/komari/database/models"
-	"github.com/komari-monitor/komari/protocol/v1"
-	"github.com/komari-monitor/komari/utils"
+	"github.com/zejjnt/komari/database/clients"
+	"github.com/zejjnt/komari/database/dbcore"
+	"github.com/zejjnt/komari/database/metricstore"
+	"github.com/zejjnt/komari/database/models"
+	"github.com/zejjnt/komari/protocol/v1"
+	"github.com/zejjnt/komari/utils"
 	"github.com/patrickmn/go-cache"
 	"gorm.io/gorm"
 )

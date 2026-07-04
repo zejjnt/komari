@@ -3,7 +3,7 @@ package clients
 import (
 	"testing"
 
-	"github.com/komari-monitor/komari/utils"
+	"github.com/zejjnt/komari/utils"
 	"github.com/stretchr/testify/assert"
 )
 

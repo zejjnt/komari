@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	v1 "github.com/komari-monitor/komari/protocol/v1"
-	"github.com/komari-monitor/komari/web/connection"
+	v1 "github.com/zejjnt/komari/protocol/v1"
+	"github.com/zejjnt/komari/web/connection"
 )
 
 var (

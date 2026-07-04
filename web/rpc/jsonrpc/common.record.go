@@ -7,11 +7,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/komari-monitor/komari/database/clients"
-	"github.com/komari-monitor/komari/database/models"
-	recordsdb "github.com/komari-monitor/komari/database/records"
-	"github.com/komari-monitor/komari/database/tasks"
-	"github.com/komari-monitor/komari/pkg/rpc"
+	"github.com/zejjnt/komari/database/clients"
+	"github.com/zejjnt/komari/database/models"
+	recordsdb "github.com/zejjnt/komari/database/records"
+	"github.com/zejjnt/komari/database/tasks"
+	"github.com/zejjnt/komari/pkg/rpc"
 )
 
 func init() {

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/komari-monitor/komari/database/models"
+	"github.com/zejjnt/komari/database/models"
 	"github.com/stretchr/testify/assert"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

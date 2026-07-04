@@ -3,10 +3,10 @@ package cmd
 import (
 	"os"
 
-	"github.com/komari-monitor/komari/cmd/flags"
-	"github.com/komari-monitor/komari/database/accounts"
-	"github.com/komari-monitor/komari/database/dbcore"
-	"github.com/komari-monitor/komari/database/models"
+	"github.com/zejjnt/komari/cmd/flags"
+	"github.com/zejjnt/komari/database/accounts"
+	"github.com/zejjnt/komari/database/dbcore"
+	"github.com/zejjnt/komari/database/models"
 	"github.com/spf13/cobra"
 )
 

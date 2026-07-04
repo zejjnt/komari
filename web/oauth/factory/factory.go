@@ -3,7 +3,7 @@ package factory
 import (
 	"log"
 
-	"github.com/komari-monitor/komari/utils/item"
+	"github.com/zejjnt/komari/utils/item"
 )
 
 var (

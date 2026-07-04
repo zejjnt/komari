@@ -1,6 +1,6 @@
 syntax = "proto3";
 package proto;
-option go_package = "github.com/komari-monitor/komari/compat/nezha/proto";
+option go_package = "github.com/zejjnt/komari/compat/nezha/proto";
 
 service NezhaService {
   rpc ReportSystemState(stream State) returns (stream Receipt) {}

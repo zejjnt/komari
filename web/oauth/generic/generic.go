@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/komari-monitor/komari/utils"
-	"github.com/komari-monitor/komari/web/oauth/factory"
+	"github.com/zejjnt/komari/utils"
+	"github.com/zejjnt/komari/web/oauth/factory"
 	"github.com/patrickmn/go-cache"
 )
 
